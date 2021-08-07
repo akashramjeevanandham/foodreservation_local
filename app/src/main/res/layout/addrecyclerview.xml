@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="5dp"
+    android:id="@+id/card2"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addparent1">
+
+        <TextView
+            android:id="@+id/foodName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/alfa_slab_one"
+            android:layout_toRightOf="@id/quantityTXT2"
+            android:layout_centerVertical="true"
+            android:text="DOSAI"
+            android:textAlignment="center"
+            android:layout_marginLeft="50dp"
+            android:textColor="#7558A8"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/quantityTXT2"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="QUANTITY"
+            android:textAlignment="center"
+            android:textColor="#B00BCC"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/quantityTXT2"
+            android:id="@+id/quantityval2"
+            android:layout_toRightOf="@+id/btnminus2"
+            android:layout_marginTop="7dp"
+            android:textAlignment="center"
+            android:hint="0"/>
+
+       <ImageView
+           android:layout_width="30dp"
+           android:layout_height="30dp"
+           android:layout_below="@+id/quantityTXT2"
+           android:src="@drawable/minus"
+           android:layout_marginLeft="22dp"
+           android:id="@id/btnminus2"
+           />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/quantityTXT2"
+            android:layout_toRightOf="@+id/quantityval2"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/plus"
+            android:id="@+id/btnadd2"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/delete"
+            android:layout_marginTop="5dp"
+           android:layout_alignParentEnd="true"
+            android:id="@+id/deleteimg2"
+            />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:fontFamily="@font/bungee_inline"
+            android:text="PRICE :"
+            android:textColor="#ED1C0D"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:id="@+id/price_text2"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:fontFamily="@font/bungee_inline"
+            android:textColor="#ED1C0D"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/price_text2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="50dp"
+            android:hint="0"
+            android:id="@+id/price_val2"/>
+
+
+  //
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/addparent1"-->
+<!--        android:visibility="gone"-->
+<!--        android:id="@+id/addparent2">-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="long"-->
+<!--            android:visibility="visible"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:id="@+id/longdesc"/>-->
+<!--        <ImageView-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:src="@drawable/ic_up_arrow"-->
+<!--            android:layout_below="@id/longdesc"-->
+<!--            android:id="@+id/uparrow"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:visibility="visible"/>-->
+
+
+</RelativeLayout>
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

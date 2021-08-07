@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.addnew.AddnewFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t\t\t\t\t\t\t\t\t\t\tENTER THE FOOD ITEM INFORMATION"
+            android:backgroundTintMode="multiply"
+            android:background="#C9D4F3"
+            android:textColor="#070707"
+            android:textSize="@dimen/fab_margin"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+            android:id="@+id/foodname_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter Food Name" />
+
+        <!--edit text to enter course duration-->
+        <EditText
+            android:id="@+id/imageurl_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter Image Url" />
+
+        <!--edit text to display course tracks-->
+        <EditText
+            android:id="@+id/short_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter Short Description" />
+
+        <!--edit text for course description-->
+        <EditText
+            android:id="@+id/long_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter Long Description" />
+        <EditText
+            android:id="@+id/price_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter Price Of The Food" />
+        <EditText
+            android:id="@+id/available_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter The Available Quantity" />
+
+        <!--button for adding new course-->
+        <Button
+            android:id="@+id/BtnAdditem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Add Data to Menu"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

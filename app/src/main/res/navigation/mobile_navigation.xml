@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.akash.second.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_addcart"
+        android:name="com.akash.second.ui.addcart.AddacartFragment"
+        android:label="@string/menu_addcart"
+        tools:layout="@layout/fragment_addcart" />
+
+    <fragment
+        android:id="@+id/nav_bill"
+        android:name="com.akash.second.ui.Bill.BillFragment"
+        android:label="@string/menu_bill"
+        tools:layout="@layout/fragment_bill" />
+    <fragment
+        android:id="@+id/nav_addnew"
+        android:name="com.akash.second.ui.addnew.AddnewFragment"
+        android:label="@string/menu_addnew"
+        tools:layout="@layout/fragment_addnew"/>
+</navigation>

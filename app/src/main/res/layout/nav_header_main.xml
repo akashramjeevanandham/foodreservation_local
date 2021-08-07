@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="220dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:src="@drawable/ic_launcher_foreground2" />
+
+        <TextView
+            android:id="@+id/hotelname"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/faster_one"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:text="MURUGAN \t\t\t\tHOTEL"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="25dp"
+
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</LinearLayout>
